@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3256E8A15F8792700642992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3256E8915F8792700642992 /* Foundation.framework */; };
+		B3256E8F15F8792700642992 /* AMSerialAccessProxy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3256E8E15F8792700642992 /* AMSerialAccessProxy.h */; };
+		B3256E9115F8792700642992 /* AMSerialAccessProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3256E9015F8792700642992 /* AMSerialAccessProxy.m */; };
+		B3256E9915F8792800642992 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3256E9815F8792800642992 /* SenTestingKit.framework */; };
+		B3256E9B15F8792800642992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3256E9A15F8792800642992 /* UIKit.framework */; };
+		B3256E9C15F8792800642992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3256E8915F8792700642992 /* Foundation.framework */; };
+		B3256E9F15F8792800642992 /* libAMSerialAccessProxy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3256E8615F8792700642992 /* libAMSerialAccessProxy.a */; };
+		B3256EA515F8792800642992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3256EA315F8792800642992 /* InfoPlist.strings */; };
+		B3256EA815F8792800642992 /* AMSerialAccessProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3256EA715F8792800642992 /* AMSerialAccessProxyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3256E9D15F8792800642992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3256E7D15F8792700642992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3256E8515F8792700642992;
+			remoteInfo = AMSerialAccessProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3256E8415F8792700642992 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				B3256E8F15F8792700642992 /* AMSerialAccessProxy.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3256E8615F8792700642992 /* libAMSerialAccessProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMSerialAccessProxy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3256E8915F8792700642992 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3256E8D15F8792700642992 /* AMSerialAccessProxy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMSerialAccessProxy-Prefix.pch"; sourceTree = "<group>"; };
+		B3256E8E15F8792700642992 /* AMSerialAccessProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMSerialAccessProxy.h; sourceTree = "<group>"; };
+		B3256E9015F8792700642992 /* AMSerialAccessProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMSerialAccessProxy.m; sourceTree = "<group>"; };
+		B3256E9715F8792800642992 /* AMSerialAccessProxyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMSerialAccessProxyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3256E9815F8792800642992 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B3256E9A15F8792800642992 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B3256EA215F8792800642992 /* AMSerialAccessProxyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMSerialAccessProxyTests-Info.plist"; sourceTree = "<group>"; };
+		B3256EA415F8792800642992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3256EA615F8792800642992 /* AMSerialAccessProxyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMSerialAccessProxyTests.h; sourceTree = "<group>"; };
+		B3256EA715F8792800642992 /* AMSerialAccessProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMSerialAccessProxyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3256E8315F8792700642992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3256E8A15F8792700642992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3256E9315F8792800642992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3256E9915F8792800642992 /* SenTestingKit.framework in Frameworks */,
+				B3256E9B15F8792800642992 /* UIKit.framework in Frameworks */,
+				B3256E9C15F8792800642992 /* Foundation.framework in Frameworks */,
+				B3256E9F15F8792800642992 /* libAMSerialAccessProxy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3256E7B15F8792700642992 = {
+			isa = PBXGroup;
+			children = (
+				B3256E8B15F8792700642992 /* AMSerialAccessProxy */,
+				B3256EA015F8792800642992 /* AMSerialAccessProxyTests */,
+				B3256E8815F8792700642992 /* Frameworks */,
+				B3256E8715F8792700642992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3256E8715F8792700642992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3256E8615F8792700642992 /* libAMSerialAccessProxy.a */,
+				B3256E9715F8792800642992 /* AMSerialAccessProxyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3256E8815F8792700642992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3256E8915F8792700642992 /* Foundation.framework */,
+				B3256E9815F8792800642992 /* SenTestingKit.framework */,
+				B3256E9A15F8792800642992 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3256E8B15F8792700642992 /* AMSerialAccessProxy */ = {
+			isa = PBXGroup;
+			children = (
+				B3256E8E15F8792700642992 /* AMSerialAccessProxy.h */,
+				B3256E9015F8792700642992 /* AMSerialAccessProxy.m */,
+				B3256E8C15F8792700642992 /* Supporting Files */,
+			);
+			path = AMSerialAccessProxy;
+			sourceTree = "<group>";
+		};
+		B3256E8C15F8792700642992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3256E8D15F8792700642992 /* AMSerialAccessProxy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3256EA015F8792800642992 /* AMSerialAccessProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3256EA615F8792800642992 /* AMSerialAccessProxyTests.h */,
+				B3256EA715F8792800642992 /* AMSerialAccessProxyTests.m */,
+				B3256EA115F8792800642992 /* Supporting Files */,
+			);
+			path = AMSerialAccessProxyTests;
+			sourceTree = "<group>";
+		};
+		B3256EA115F8792800642992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3256EA215F8792800642992 /* AMSerialAccessProxyTests-Info.plist */,
+				B3256EA315F8792800642992 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3256E8515F8792700642992 /* AMSerialAccessProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3256EAB15F8792800642992 /* Build configuration list for PBXNativeTarget "AMSerialAccessProxy" */;
+			buildPhases = (
+				B3256E8215F8792700642992 /* Sources */,
+				B3256E8315F8792700642992 /* Frameworks */,
+				B3256E8415F8792700642992 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMSerialAccessProxy;
+			productName = AMSerialAccessProxy;
+			productReference = B3256E8615F8792700642992 /* libAMSerialAccessProxy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3256E9615F8792800642992 /* AMSerialAccessProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3256EAE15F8792800642992 /* Build configuration list for PBXNativeTarget "AMSerialAccessProxyTests" */;
+			buildPhases = (
+				B3256E9215F8792800642992 /* Sources */,
+				B3256E9315F8792800642992 /* Frameworks */,
+				B3256E9415F8792800642992 /* Resources */,
+				B3256E9515F8792800642992 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3256E9E15F8792800642992 /* PBXTargetDependency */,
+			);
+			name = AMSerialAccessProxyTests;
+			productName = AMSerialAccessProxyTests;
+			productReference = B3256E9715F8792800642992 /* AMSerialAccessProxyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3256E7D15F8792700642992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Andy Mroczkowski";
+			};
+			buildConfigurationList = B3256E8015F8792700642992 /* Build configuration list for PBXProject "AMSerialAccessProxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3256E7B15F8792700642992;
+			productRefGroup = B3256E8715F8792700642992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3256E8515F8792700642992 /* AMSerialAccessProxy */,
+				B3256E9615F8792800642992 /* AMSerialAccessProxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3256E9415F8792800642992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3256EA515F8792800642992 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3256E9515F8792800642992 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3256E8215F8792700642992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3256E9115F8792700642992 /* AMSerialAccessProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3256E9215F8792800642992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3256EA815F8792800642992 /* AMSerialAccessProxyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3256E9E15F8792800642992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3256E8515F8792700642992 /* AMSerialAccessProxy */;
+			targetProxy = B3256E9D15F8792800642992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3256EA315F8792800642992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3256EA415F8792800642992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3256EA915F8792800642992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3256EAA15F8792800642992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3256EAC15F8792800642992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AMSerialAccessProxy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSerialAccessProxy/AMSerialAccessProxy-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3256EAD15F8792800642992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AMSerialAccessProxy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSerialAccessProxy/AMSerialAccessProxy-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B3256EAF15F8792800642992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSerialAccessProxy/AMSerialAccessProxy-Prefix.pch";
+				INFOPLIST_FILE = "AMSerialAccessProxyTests/AMSerialAccessProxyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3256EB015F8792800642992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSerialAccessProxy/AMSerialAccessProxy-Prefix.pch";
+				INFOPLIST_FILE = "AMSerialAccessProxyTests/AMSerialAccessProxyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3256E8015F8792700642992 /* Build configuration list for PBXProject "AMSerialAccessProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3256EA915F8792800642992 /* Debug */,
+				B3256EAA15F8792800642992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3256EAB15F8792800642992 /* Build configuration list for PBXNativeTarget "AMSerialAccessProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3256EAC15F8792800642992 /* Debug */,
+				B3256EAD15F8792800642992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3256EAE15F8792800642992 /* Build configuration list for PBXNativeTarget "AMSerialAccessProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3256EAF15F8792800642992 /* Debug */,
+				B3256EB015F8792800642992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3256E7D15F8792700642992 /* Project object */;
+}
